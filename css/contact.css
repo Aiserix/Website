@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'popins', sans-serif;
+}
+
+.container-form{
+    display: flex;
+    background-color: rgb(255, 91, 91);
+    height: 750px;
+    width: 1000px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 25px;
+}
+
+.form{
+    padding: 30px 80px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.name{
+    color: #fff;
+}
+
+.correo{
+    color: #fff;
+}
+
+.mensaje{
+    color: #fff;
+}
+
+.form h3{
+    font-size: 45px;
+    color: white;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+
+.form p{
+    color: #fff;
+}
+
+.label{
+    font-size: 15px;
+    color: gray;
+    margin-bottom: 15px;
+}
+
+.caja{
+    border: 0;
+    background-color: #F4F4FD;
+    padding: 15px;
+    border-radius: 20px;
+    margin-bottom: 25px;
+    outline: none;
+}
+
+.submit{
+    background-color: #fff;
+    border: 0;
+    padding: 15px;
+    color: rgb(255, 91, 91);
+    border-radius: 150px;
+    width: 250px;
+    margin-top: 25px;
+}
+
+.info{
+    padding: 50px;
+}
+
+.img-1{
+    width: 350px;
+    margin-bottom: 60px;
+}
+
+.location{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.icons{
+    display: flex;
+    margin-bottom: 31px;
+    color: white;
+}
+
+.icons img{
+    width: 30px;
+    margin-right: 15px;
+}
+
+.icons p{
+    font-size: 14px;
+    margin-top: 14px;
+}
+
+.social img{
+    width: 50px;
+    margin-right: 30px;
+}
+
+/*banner*/
+
+.header_intro_bg-image{
+    background-position: center;
+    background-image: url(/img/Contacto.jpg);
+}
+
+.inner-intro.header_intro{
+    position: relative;
+    z-index: 0;
+    box-shadow: 0 3px 8px rgba(0, 0, 0,.03);
+}
+
+.inner-intro{
+    height: 300px;
+}
+
+.inner-intro:before{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0,.7);
+    z-index: 9;
+}
+
+
+.inner-intro .intro-title {
+    height: 100%;
+    position: absolute;
+    right: 20%;
+    left: 44%;
+    z-index: 9;
+
+}
+
+.inner-intro .intro-title-inner{
+    color: #fff;
+    font-size: 36px;
+}
+
+.container-map{
+    width: auto;
+    max-height: 100%;
+}
+
+@media (max-width: 990px) {
+
+    .container-form{
+        width: 350px;
+        height: 800px;
+        margin-top: 50px;
+    }
+
+    .info{
+        display: none;
+    }
+
+    .form{
+        width: 100%;
+        padding: 30px;
+    }
+}

@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+.body{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    line-height: 24px;
+    font-size: 14px;
+}
+
+.div{
+    display: block;
+}
+
+
+/*nosotros*/
+
+.container{
+    margin: auto;
+}
+
+.section{
+    width: 75%;
+    margin: auto;
+    padding: 100px 0;
+}
+
+.section_2-title{
+    font-family: 'roboto', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.us{
+    display: flex;
+}
+
+.us-txt{
+    width: 60%;
+    padding: 0 10% 0 0;
+    font-family: 'roboto', sans-serif;
+    font-size: 18px;
+    text-align: justify;
+
+}
+
+.txt-txt{
+    margin: 10px 0;
+}
+
+.us-img{
+    width: 50%;
+}
+
+.img-img{
+    object-fit: cover;
+    width: 100%;
+    border-radius: 5px;
+}
+
+@media (max-width: 991px){
+    .container{
+        margin: auto;
+    }
+    
+    .section{
+        width: 75%;
+        margin: auto;
+        padding: 100px 0;
+    }
+    
+    .section_2-title{
+        font-family: 'roboto', sans-serif;
+        font-size: 40px;
+        font-weight: bold;
+        text-align: center;
+    }
+    
+    .us{
+        display: grid;
+    }
+    
+    .us-txt{
+        width: 100%;
+        padding: 20px;
+        font-family: 'roboto', sans-serif;
+        font-size: 18px;
+        text-align: justify;
+    }
+    
+    .txt-txt{
+        margin: 0;
+    }
+    
+    .us-img{
+        width: 100%;
+    }
+    
+    .img-img{
+        object-fit: cover;
+        width: 100%;
+        border-radius: 5px;
+    }
+}
